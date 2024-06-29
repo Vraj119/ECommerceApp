@@ -1,0 +1,43 @@
+/* styles.css or styles.scss */
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.custom-search-form {
+  width: 500px; /* Set the width to 500px */
+}
+
+  .custom-search-form .form-control {
+    height: 40px; /* Set the height to 50px */
+  }
+
+.cart-count {
+  font-size: 14px;
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+.cart-text {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Add spacing between nav items */
+}
+
+  .navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Remove margin from the last nav item */
+  }
+
+.navbar-nav .nav-link {
+  padding: 10px 15px; /* Add padding to nav links for better clickability */
+}
+
+.navbar-brand {
+  margin-right: auto; /* Push the brand/logo to the left */
+}

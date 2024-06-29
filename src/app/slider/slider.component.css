@@ -1,0 +1,25 @@
+/* Ensure the carousel container is full width */
+.carousel {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Standardize the size of carousel images */
+.carousel-item img.carousel-image {
+  width: 100%;
+  height: 700px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+/* Optionally, adjust the position of the carousel indicators */
+.carousel-indicators {
+  bottom: 10px; /* Adjust the position as needed */
+}
+
+/* Adjust the size and position of the carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+  height: 40px;
+  width: 40px;
+}

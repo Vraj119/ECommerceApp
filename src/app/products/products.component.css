@@ -1,0 +1,50 @@
+.products-section {
+  background-color: #f8f9fa;
+}
+
+.product-card {
+  height: 100%; /* Ensure the card takes full height of the parent */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  border-radius: 8px; /* Slightly round the corners */
+  overflow: hidden; /* Prevent overflow */
+  background-color: #fff; /* Set background color to white */
+}
+.products-section h2 {
+  color: #333; /* Dark color for the section title */
+  font-weight: bold;
+  margin-bottom: 40px; /* Space below the section title */
+}
+  .product-card img {
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensure images cover the full area */
+  }
+
+  .product-card .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px; /* Add padding inside the card body */
+  }
+
+  .product-card .card-title {
+    font-size: 1.25rem; /* Adjust font size for the title */
+    color: #333; /* Dark gray color for better contrast */
+  }
+
+  .product-card .card-text {
+    margin-bottom: 0.5rem;
+    color: #666; /* Medium gray for description text */
+  }
+
+.product-card .btn {
+  align-self: center; /* Center the button horizontally */
+  background-color: #333; /* Primary button color */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Adjust padding for the button */
+  border-radius: 4px; /* Slightly round the button corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}

@@ -1,0 +1,47 @@
+<!-- app.component.html -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">My App</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0 custom-search-form">
+        <div class="input-group w-100">
+          <input class="form-control form-control-lg w-80" type="search" placeholder="Search for products, brands, and more" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-warning btn-md" type="submit">
+              <i class="fas fa-search"></i> <!-- Font Awesome search icon -->
+            </button>
+          </div>
+        </div>
+      </form>
+      <ul class="navbar-nav ml-2">
+        <li class="nav-item">
+          <a class="nav-link" href="sign-in" (click)="toggleSignIn()">Sign In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span class="cart-icon">
+              <i class="fas fa-shopping-cart fa-lg position-relative">
+                <span class="cart-count position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+              </i> <!-- Cart icon -->
+            </span>
+            <span class="cart-text">Cart</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
