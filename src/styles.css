@@ -10,7 +10,9 @@
   display: flex;
   align-items: center;
 }
-
+.sign-in-page {
+  background-color: #f0f0f0;
+}
 /* slider.component.scss */
 .slider-content {
   display: flex;

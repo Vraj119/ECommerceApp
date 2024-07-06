@@ -29,18 +29,18 @@
               }
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css",
-              "./src/assets/css/blue.css",
-              "./src/assets/css/cyan.css",
-              "./src/assets/css/default.css",
-              "./src/assets/css/green.css",
-              "./src/assets/css/indigo.css",
-              "./src/assets/css/orange.css",
-              "./src/assets/css/pink.css",
-              "./src/assets/css/purple.css",
-              "./src/assets/css/red.css",
-              "./src/assets/css/yellow.css"
+             "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+              //"./src/assets/css/blue.css",
+              //"./src/assets/css/cyan.css",
+              //"./src/assets/css/default.css",
+              //"./src/assets/css/green.css",
+              //"./src/assets/css/indigo.css",
+              //"./src/assets/css/orange.css",
+              //"./src/assets/css/pink.css",
+              //"./src/assets/css/purple.css",
+              //"./src/assets/css/red.css",
+              //"./src/assets/css/yellow.css"
             ],
             "scripts": [
               "./src/assets/js/scripts.js",
@@ -48,7 +48,7 @@
               "node_modules/popper.js/dist/umd/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ],
-            "baseHref": "/ECommerceApp/home/"
+            "baseHref": "/ECommerceApp/"
           },
           "configurations": {
             "production": {

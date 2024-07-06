@@ -1,5 +1,5 @@
 import { Component, Output, EventEmitter } from '@angular/core';
-
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-sign-in',
@@ -9,10 +9,11 @@ import { Component, Output, EventEmitter } from '@angular/core';
   styleUrl: './sign-in.component.css'
 })
 export class SignInComponent {
-  @Output() close = new EventEmitter<void>();
+  email: string = '';
+  password: string = '';
 
-
-  closeSignIn() {
-    this.close.emit();
+  onSubmit() {
+    console.log('Email:', this.email);
+    console.log('Password:', this.password);
   }
 }
